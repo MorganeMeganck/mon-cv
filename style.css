@@ -1,0 +1,54 @@
+body{
+background-image: url(/home/user/becode/mon-cv/backgroundpoly.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: scroll;
+}
+img {
+width: 180px;
+height: auto;
+}
+strong{
+color: #602020;
+}
+.page{
+margin: auto;
+width: 800px;
+font-size: 16px;
+font-family: 'Open Sans Condensed', sans-serif;
+background-color: rgba(93, 50, 60, 0.1);;
+}
+.info{
+font-size: 20px;
+flex:2;
+}
+.photo{
+flex: 1;
+}
+.section{
+margin-bottom: 70px;
+clear: both;
+}
+.row{
+display: flex;
+}
+.sec-gauche{
+flex: 1;
+font-weight: bold;
+}
+.sec-droite{
+flex:1;
+}
+h2{
+font-size: 28px;
+text-transform: uppercase;
+border-bottom: 3px solid #602020;
+color: #993333;
+}
+.infophoto{
+height: 250px;
+width: auto;
+display: flex;
+background-color: white;
+border-bottom: 10px solid #602020;
+}
